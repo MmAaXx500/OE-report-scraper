@@ -10,7 +10,7 @@ Template examples can be found in the [examples](examples) directory.
 
 `./oe_report_scraper.py -t ./examples/template.cs -o ./out.cs oehtmlreport1.html oehtmlreport2.html`
 
-The `-t`/`--template` parameter can be omitted, then the output is written to the current working directory as `res.cs`.
+The `-o`/`--out` parameter can be omitted, then the output is written to the current working directory as `res.cs`.
 
 ### Template parameters
 
@@ -19,3 +19,7 @@ The `-t`/`--template` parameter can be omitted, then the output is written to th
 - `<expected>` - The  expected output from the report
 - `<num>` - Number, going from 1 and incremented for each test case
 - `<inputarr>` - The unit test input from the report in array format. The line of this placeholder is used as an array item and repeated for each item.
+
+### License
+
+Licensed under [GPL-3.0](LICENSE.md) or later
